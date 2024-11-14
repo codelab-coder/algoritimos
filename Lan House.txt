@@ -1,0 +1,30 @@
+algoritmo "Lan House"
+// Função :
+// Autor :Fernando Marques Guimarães
+// Data : 13/07/2024
+// Seção de Declarações 
+var
+
+   preco: real
+   tempoDeUso:real
+   minutos: real
+   horas: real
+   totalAPagar: real
+
+inicio
+
+
+      Escreval("digite o tempo de uso do cliente na Lan house")
+      leia(tempoDeUso)
+      preco <- 2
+      totalAPagar <- preco*tempoDeUso
+      minutos <- tempoDeUso*60
+      
+      Escreval("por hora o preço é de:", preco)
+      Escreval(" O tempo de uso é de:", tempoDeUso)
+      Escreval("Em minutos:" , minutos)
+      Escreval("o total a pagar é:", totalAPagar)
+      
+      
+      
+fimalgoritmo

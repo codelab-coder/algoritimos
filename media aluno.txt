@@ -1,0 +1,47 @@
+algoritmo "Media Aluno"
+// Função :
+// Autor :Fernando Marques Guimarães
+// Data : 13/07/2024
+// Seção de Declarações 
+var
+
+   aluno: caractere
+   nota1:real
+   nota2: real
+   nota3:real
+   nota4:real
+   media: real
+
+inicio
+
+      Escreval("Digite o nome do Aluno")
+      leia(aluno)
+      
+      
+      Escreval("digite a primeira nota do aluno")
+      leia(nota1)
+
+      Escreval("digite a segunda nota do aluno")
+      leia(nota2)
+      
+      
+      Escreval("digite A terceira nota do aluno")
+      leia(nota3)
+      
+      Escreval("digite a quarta nota do aluno")
+      leia(nota4)
+      media <- nota1/4+nota2/4+nota3/4+nota4/4
+
+      Escreval("aluno:", aluno)
+      Escreval("primeira nota:", nota1)
+      Escreval("segunda nota:", nota2)
+      Escreval("terceira nota:", nota3)
+      Escreval("quarta nota:", nota4)
+      Escreval("média:", media)
+      
+      
+
+      
+      
+      
+fimalgoritmo
