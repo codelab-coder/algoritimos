@@ -3,7 +3,7 @@
 
 using namespace std;
 
-// Declaração das funções
+
 void mensagem();
 void soma2(int numero1, int numero2);
 int soma3(int numero1, int numero2, int numero3);
@@ -26,7 +26,7 @@ int main() {
     cout << "Digite o terceiro número: ";
     cin >> n3;
 
-    // Chamada da função soma3 com os números digitados
+    
     cout << "\nO total da soma dos três números é: " << soma3(n1, n2, n3) << endl;
 
     system("pause");
