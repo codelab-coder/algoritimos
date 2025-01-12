@@ -1,0 +1,16 @@
+import pyautogui as posicaoabrearquivo
+posicaoabrearquivo.hotkey('win','r')
+posicaoabrearquivo.sleep(2)
+posicaoabrearquivo.typewrite("notepad")
+posicaoabrearquivo.sleep(2)
+posicaoabrearquivo.press("enter")
+posicaoabrearquivo.sleep(2)
+posicaoabrearquivo.typewrite("entrei no bloco de notas com python")
+fecharblocodenotas=posicaoabrearquivo.getActiveWindow()
+
+posicaoabrearquivo.sleep(4)
+fecharblocodenotas.close()
+posicaoabrearquivo.sleep(2)
+posicaoabrearquivo.press("tab")
+posicaoabrearquivo.sleep(2)
+posicaoabrearquivo.press("enter")
